@@ -2,22 +2,22 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.groupdocs</groupId>
-    <artifactId>groupdocs-annotation-cloud</artifactId>
+    <artifactId>groupdocs-annotation-cloud-android</artifactId>
     <packaging>jar</packaging>
-    <name>groupdocs-annotation-cloud</name>
-    <version>19.5</version>
-    <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-java</url>
+    <name>groupdocs-annotation-cloud-android</name>
+    <version>20.10</version>
+    <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-android</url>
     <description>Java library for communicating with the GroupDocs.Annotation Cloud API</description>
     <scm>
-        <connection>scm:git:git@github.com:groupdocs-annotation-cloud/groupdocs-annotation-cloud-java.git</connection>
-        <developerConnection>scm:git:git@github.com:groupdocs-annotation-cloud/groupdocs-annotation-cloud-java.git</developerConnection>
-        <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-java</url>
+        <connection>scm:git:git@github.com:groupdocs-annotation-cloud/groupdocs-annotation-cloud-android.git</connection>
+        <developerConnection>scm:git:git@github.com:groupdocs-annotation-cloud/groupdocs-annotation-cloud-android.git</developerConnection>
+        <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-android</url>
     </scm>
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-java/blob/master/LICENSE</url>
+            <url>https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-android/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -33,9 +33,9 @@
 
     <repositories>
         <repository>
-            <id>maven.aspose.cloud</id>
-            <name>maven.aspose.cloud</name>
-            <url>https://repository.aspose.cloud/repo/</url>
+            <id>maven.groupdocs.cloud</id>
+            <name>maven.groupdocs.cloud</name>
+            <url>https://repository.groupdocs.cloud/repo/</url>
         </repository>
     </repositories>
 
@@ -183,8 +183,8 @@
                             <configuration>
                               <repositoryId>Groupdocs-Cloud-QA</repositoryId>
                               <url>https://repository-qa.groupdocs.cloud/repo</url>
-                              <file>target/groupdocs-annotation-cloud-${project.version}.jar</file>
-                              <javadoc>target/groupdocs-annotation-cloud-${project.version}-javadoc.jar</javadoc>                              
+                              <file>target/groupdocs-annotation-cloud-android-${project.version}.jar</file>
+                              <javadoc>target/groupdocs-annotation-cloud-android-${project.version}-javadoc.jar</javadoc>                              
                               <pomFile>simplified-pom.xml</pomFile>
                               <packaging>${project.packaging}</packaging>
                             </configuration>
@@ -264,8 +264,8 @@
                             <configuration>
                               <repositoryId>Groupdocs-Cloud-PROD</repositoryId>
                               <url>https://repository.groupdocs.cloud/repo</url>
-                              <file>target/groupdocs-annotation-cloud-${project.version}.jar</file>
-                              <javadoc>target/groupdocs-annotation-cloud-${project.version}-javadoc.jar</javadoc>                              
+                              <file>target/groupdocs-annotation-cloud-android-${project.version}.jar</file>
+                              <javadoc>target/groupdocs-annotation-cloud-android-${project.version}-javadoc.jar</javadoc>                              
                               <pomFile>simplified-pom.xml</pomFile>
                               <packaging>${project.packaging}</packaging>
                             </configuration>
