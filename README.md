@@ -65,11 +65,11 @@ dependencies {
 ```java
 // For complete examples and data files, please go to https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-java-samples
 // Get Client Id and Client Secret from https://dashboard.groupdocs.cloud
-String MyClientSecret = ""; 
-String MyClientId = ""; 
+String MyClientId = "";
+String MyClientSecret = "";
 
+// Create instance of the API
 Configuration configuration = new Configuration(MyClientId, MyClientSecret);
-
 AnnotateApi apiInstance = new AnnotateApi(configuration);
 
 // Create annotation/s.
