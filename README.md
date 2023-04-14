@@ -25,7 +25,7 @@ repositories {
 ...
 dependencies {
     ...
-    implementation 'com.groupdocs:groupdocs-annotation-cloud-android:22.2'
+    implementation 'com.groupdocs:groupdocs-annotation-cloud-android:23.4'
 }
 ```
 
