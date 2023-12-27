@@ -9,5 +9,5 @@ public class Config
      */
     public static String AppSID = "annotation.cloud";
     public static String AppKey = "annotation.cloud";
-    public static String ApiBaseUrl = "https://api-qa.groupdocs.cloud";
+    public static String ApiBaseUrl = "https://annotation.qa.groupdocs.cloud";
 }
